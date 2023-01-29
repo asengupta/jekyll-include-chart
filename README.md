@@ -11,6 +11,7 @@ A barebones Jekyll plugin to create charts using [chart.js](https://www.chartjs.
 
 Do something like this in your Markdown files, or wherever you can use Liquid templates:
 
+```
 {% include_chart myChart!500!500!{
     type: 'polarArea',
     data: {
@@ -31,6 +32,7 @@ Do something like this in your Markdown files, or wherever you can use Liquid te
       }
     }
   } %}
+```
 
 The above will create a ```polarArea``` chart of width 500 and height 500.
 Here is a [test page](http://avishek.net/assets/pages/test-page.html)
